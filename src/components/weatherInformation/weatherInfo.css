@@ -1,0 +1,60 @@
+/* weatherInfo.css */
+
+.container-dados {
+    /* Estilos gerais para o container */
+
+    max-width: 80%;
+    margin: 10px auto;
+    padding-top: 18px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.2); /* Branco com 50% de transparência */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding-top: 18px;
+  }
+  
+  
+  
+  /* Estilos específicos para outros elementos */
+  h2 {
+    text-align: center;
+  }
+  
+  p {
+    margin: 3px 0;
+    font-size: 21px;
+  }
+  
+  .info-clima-cidade {
+    /* Estilos para a seção de informações */
+    display: flex;
+    flex-direction: row; /* Organiza em colunas para telas menores */
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px;
+  }
+  
+  /* ... outros estilos específicos */
+
+  /* Estilos para telas menores (tablets e smartphones) */
+  @media (max-width: 767px) {
+    .container-dados {
+      padding:10px;
+      background-color: rgba(255, 255, 255, 0.6); /* Branco com 50% de transparência */
+    }
+  
+    /* Outros ajustes para telas menores, como: */
+    h2 {
+      font-size: 1.5rem;
+    }
+    p {
+      font-size: 1rem;
+    }
+
+    .info-clima-cidade {
+        /* Estilos para a seção de informações */
+        flex-direction: column; /* Organiza em colunas para telas menores */
+      }
+      
+    /* ... */
+  }
