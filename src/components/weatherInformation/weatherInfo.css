@@ -3,14 +3,14 @@
 .container-dados {
     /* Estilos gerais para o container */
 
-    max-width: 80%;
+    max-width: 85%;
     margin: 10px auto;
-    padding-top: 18px;
+    padding-top: 12px;
     border: 1px solid #ddd;
     border-radius: 10px;
-    background-color: rgba(255, 255, 255, 0.2); /* Branco com 50% de transparência */
+    background-color: rgba(255, 255, 255, 0.3); /* Branco com 50% de transparência */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    padding-top: 18px;
+    padding-top: 15px;
   }
   
   
@@ -21,7 +21,7 @@
   }
   
   p {
-    margin: 3px 0;
+    margin: 2px 0;
     font-size: 21px;
   }
   
@@ -31,7 +31,7 @@
     flex-direction: row; /* Organiza em colunas para telas menores */
     align-items: center;
     justify-content: space-between;
-    padding: 12px;
+    padding: 6px;
   }
   
   /* ... outros estilos específicos */
